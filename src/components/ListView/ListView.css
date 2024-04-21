@@ -1,0 +1,36 @@
+.list-view {
+    display: flex;
+    flex-direction: column;
+}
+
+.shop-item {
+    margin-bottom: 20px;
+    /* Отступ между элементами списка */
+    background-color: #fff;
+    /* Цвет фона элемента списка */
+    border: 1px solid #ccc;
+    /* Обводка элемента списка */
+    border-radius: 5px;
+    /* Закругление углов элемента списка */
+    padding: 10px;
+    /* Внутренний отступ элемента списка */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Тень элемента списка */
+}
+
+.shop-item img {
+    width: 30%;
+    /* Максимальная ширина изображения */
+    height: auto;
+    /* Автоматическая высота изображения */
+}
+
+.shop-item h3 {
+    margin-top: 0;
+    /* Убираем верхний отступ для заголовка */
+}
+
+.shop-item p {
+    margin-bottom: 0;
+    /* Убираем нижний отступ для текста */
+}

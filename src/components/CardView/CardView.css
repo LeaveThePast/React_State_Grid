@@ -1,0 +1,39 @@
+.card-view {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.shop-card {
+    width: 200px;
+    /* Ширина карточки */
+    margin-bottom: 20px;
+    /* Отступ между карточками */
+    background-color: #fff;
+    /* Цвет фона карточки */
+    border: 1px solid #ccc;
+    /* Обводка карточки */
+    border-radius: 5px;
+    /* Закругление углов карточки */
+    padding: 10px;
+    /* Внутренний отступ карточки */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Тень карточки */
+}
+
+.shop-card img {
+    width: 100%;
+    /* Максимальная ширина изображения */
+    height: auto;
+    /* Автоматическая высота изображения */
+}
+
+.shop-card h3 {
+    margin-top: 0;
+    /* Убираем верхний отступ для заголовка */
+}
+
+.shop-card p {
+    margin-bottom: 0;
+    /* Убираем нижний отступ для текста */
+}
